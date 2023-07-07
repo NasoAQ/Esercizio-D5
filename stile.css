@@ -35,3 +35,26 @@ h3 {
     font-size: 1rem;
 }
 
+.bookMark {
+    color: gray;
+}
+
+.bi.bi-star, .bi-star-half, .bi-star-fill {
+    color: gold;
+}
+
+.bookMark:hover {
+   fill: currentColor;
+}
+
+.card {
+    transition: all linear 0.2s;
+}
+
+.card:hover {
+    scale: 1.05;
+    z-index: 5;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+
+}
