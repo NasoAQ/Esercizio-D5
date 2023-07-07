@@ -1,0 +1,37 @@
+body {
+    background-color:#eeeeee;;
+}
+
+
+#myBg {
+    background-color: rgb(115,48,250);
+
+}
+
+
+.myIcon {
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.myControl {
+    padding: 10px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 0%;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
