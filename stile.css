@@ -39,7 +39,9 @@ h3 {
     color: gray;
 }
 
-.bi.bi-star, .bi-star-half, .bi-star-fill {
+.bi.bi-star,
+.bi-star-half,
+.bi-star-fill {
     color: gold;
 }
 
@@ -48,13 +50,19 @@ h3 {
 }
 
 .card {
-    transition: all linear 0.2s;
+    border: 1px blanchedalmond;
+    transition:  linear 0.2s;
 }
 
 .card:hover {
-    scale: 1.05;
+    scale: 1.08;
     z-index: 5;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 
+
+
+.carousel-inner {
+    overflow: visible;
 }
